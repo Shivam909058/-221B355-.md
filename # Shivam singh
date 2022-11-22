@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main ()
+{
+int a,b,c,d,e,f,g,h,i,j,k,l;
+printf(" enter the number to find addtion " );
+scanf("%d%d" ,&a,&b);
+c=a+b;
+printf(" the result will be = %d\n " ,c);
+
+printf (" enter the number to find multiplication ");
+scanf("%d%d" ,&d,&e);
+f=d*e;
+printf(" the result will be = %d\n " ,f);
+printf(" enter the number to find subtraction " );
+scanf("%d%d" ,&g,&h);
+i=g-h;
+printf(" the result will be = %d\n " ,i);
+
+printf(" enter the number to find divison " );
+scanf("%d%d" ,&j,&k);
+l=j/k;
+printf(" the result will be = %d\n " ,l);
+return 0;
+}
+
+
+
